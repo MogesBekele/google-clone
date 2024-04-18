@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  
+}
+
+.header a{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+
+}
+.header a:hover{
+  text-decoration: underline;
+}
+
+.header img{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+/*header end*/
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  flex: 1;
+
+}
+.main-container .input-box{
+width: 550px;
+height: 40px;
+border-radius: 30px;
+border: 1px solid rgba(0, 0, 0, 0.2);
+overflow: hidden;
+position: relative;
+}
+.main-container input{
+  width: 100%;
+  border: none;
+  padding-left: 50px;
+  outline: none;
+  
+  
+}
+.main-container input:focus{
+  background-color: rgb(215, 215, 243);
+}
+.fa-magnifying-glass{
+  position: absolute;
+  left: 20px;
+  top: 12px;
+  
+}
+.fa-camera{
+position: absolute;
+right: 20px;
+top: 12px;
+}
+.fa-microphone{
+position: absolute;
+right: 55px;
+top: 12px;
+}
+div button{
+  padding: 10px;
+  background-color: #f5f4f4;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+div button:hover{
+  border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.main-container div{
+  display: flex;
+  gap: 20px;
+}
+.main-container p{
+  font-size: 13px;
+}
+
+.footer{
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  gap: 20px;
+}
+
+.button-footer{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+
+}
+.button-footer a{
+ color: black;
+ text-decoration: none; 
+ font-size: 15px;
+
+}
+.button-footer div{
+  display: flex;
+  gap: 20px;
+}
+
+.button-footer div a:hover{
+  text-decoration: underline;
+}
+
+.footer p{
+  padding-left: 30px;
+}
+
+.line{
+  background-color: #ddd;
+  height: 1px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
